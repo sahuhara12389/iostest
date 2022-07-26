@@ -1,0 +1,189 @@
+name: itpcchennaiapp
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+#version: 1.0.0+1
+version: 2.0.2+2
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  upgrader: ^3.4.1
+  provider: ^5.0.0
+  http: ^0.13.3
+  shared_preferences: ^2.0.6
+  flushbar: ^1.10.4
+
+  flutter_staggered_grid_view: ^0.4.0
+  fancy_bar: ^2.0.0
+  dio: ^4.0.0
+  #  image_picker: ^0.8.3+2
+  #  image_pickers: ^1.1.0
+
+  #agora_rtc_engine: ^3.1.3
+  #permission_handler: ^8.1.4+2
+  form_field_validator: ^1.1.0
+  bubble_tab_indicator: ^0.1.6
+  fl_chart: ^0.36.3
+  date_time_picker: ^2.1.0
+  flutter_launcher_icons: ^0.9.1
+  expansion_tile_card: ^2.0.0
+  google_fonts: ^2.1.0
+  auto_size_text: ^2.1.0
+  simple_animations: ^1.3.4
+  toggle_switch: ^1.2.0
+  path_provider: ^2.0.2
+  qr_flutter: ^4.0.0
+  barcode_scan_fix: ^1.0.2
+  mailer: ^5.0.1
+  path: ^1.8.0
+  # flutter_launcher_name: "^0.0.1"
+  unicorndial: ^1.1.5
+  share: ^2.0.4
+  link_text: ^0.2.0
+  social_share: ^2.1.1
+
+  rounded_loading_button: ^2.0.5
+  otp_text_field: ^1.1.1
+  fluttertoast: ^7.1.8
+  #countdown_flutter: ^0.1.2
+  new_version: ^0.2.2
+  date_format: ^2.0.4
+
+  url_launcher: ^6.0.9
+  #firebase_remote_config: ^0.2.1
+  intl_phone_number_input: ^0.7.0+2
+  country_picker: ^2.0.7
+  auto_size_text_field: ^1.0.1
+  wave: ^0.2.0
+
+  #//NEW
+  #carousel_slider: ^1.3.0
+  flutter_swiper : ^1.1.6
+  device_info: ^2.0.3
+  passcode_screen: ^1.2.1
+  #flutter_lock_screen: '^1.0.6'
+  connectivity_plus: ^2.0.2
+  carousel_slider: ^2.3.2
+  local_auth: ^1.1.5
+
+  image_gallery_saver: '^1.6.7'
+  flutter_image_compress: ^0.7.0
+  contacts_service: ^0.6.3
+  permission_handler: ^8.1.5
+  image_picker: ^0.8.4+1
+  image_pickers: ^1.1.0
+  flutter_payu_unofficial: ^1.0.3
+  crypto: ^3.0.1
+  #payumoney_pro_unofficial: ^0.0.9
+  #flutter_payu_unofficial: ^1.0.0
+  flutter_logs: ^2.1.2
+  sticky_headers: ^0.2.0
+  #searchable_dropdown: ^1.1.3
+  multi_select_flutter: ^4.0.0
+  readmore: ^2.1.0
+  #load: ^1.0.0
+  flutter_easyloading: ^2.0.0
+  loading_overlay: ^0.2.1
+  pdf_viewer_jk: any
+  numberpicker: ^2.0.1
+
+  #multi_image_picker: ^4.8.1
+  dotted_border: ^1.0.7
+
+  multi_image_picker: ^4.8.0
+  modal_progress_hud: ^0.1.3
+  flutter_absolute_path: ^1.0.6
+
+
+
+
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  #//NEW
+  imei_plugin: ^1.2.0
+  flutter_ip: ^0.1.4
+  get_ip: ^0.4.0
+
+
+
+
+
+
+
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/appstore.png"
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/
+    #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
